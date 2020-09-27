@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>首页</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Espresso Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<link href='#css?family=Aladin' rel='stylesheet' type='text/css'>
+<link href='#css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">
+	    <div class="bnr-img">
+			<img class="wow fadeInLeftBig animated" data-wow-delay=".5s" src="images/a.png" alt=""/>
+		</div>
+		<div class="top-nav">
+			<span class="menu"><img src="images/menu-icon.png" alt=""/></span>
+			<ul class="nav1 menu-list">
+				<li class="menu-item menu-item-current"><a class="menu-link" href="index.html">背景介绍</a></li>
+				<li class="menu-item"><a class="menu-link" href="about.html">时间线</a></li>
+				<li class="menu-item"><a class="menu-link" href="gallery.html">数据分析</a></li>
+				<li class="menu-item"><a class="menu-link" href="gallery2.html">表演</a></li>
+			</ul>
+			<div class="clearfix"> </div>
+			<!-- script-for-menu -->
+			 <script>
+			   $( "span.menu" ).click(function() {
+				 $( "ul.nav1" ).slideToggle( 300, function() {
+				 // Animation complete.
+				  });
+				 });
+			</script>
+			<!-- /script-for-menu -->
+		</div>
+		
+		<div class="banner-text">
+			<h1 class="wow fadeInDown animated" data-wow-delay=".5s" style='font-size:80px;text-shadow: 0 0 15px #e20000, 0 0 15px #e20000;'><a href="index.html">数字鹦鹉 </a> </h1>
+			<h1 class="wow fadeInDown animated" data-wow-delay=".5s" style='font-size:50px;text-shadow: 0 0 15px #e20000, 0 0 15px #e20000;'><a href="index.html">算法作曲的今世前生 </a> </h1>
+			<div class="pop-up">
+				<div id="small-dialog" class="mfp-hide book-form">
+					<form>
+						<label>Date :</label>
+						<input type="date">
+						<div class="form-left">
+							<label>City :</label>
+							<input type="text" value="City" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City';}" required="">
+						</div>
+						<div class="form-right">
+							<label>Time :</label>
+							<input type="time">
+						</div>
+						<div class="clearfix"> </div>
+						<label>Contact Info :</label>
+						<input type="text" value="Contact Info" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contact';}" required="">
+						<input type="submit" value="Order Now">
+					</form>
+				</div>
+				<!-- pop-up-box -->
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<!--//pop-up-box -->
+				<script>
+					$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});														
+					});
+				</script>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--//banner-->
+	<!--welcome-->
+
+	<div class="welcome" style='background:#000000; color:#FFF'>
+		<div class="container">
+			<div class="col-md-7 welcome-left" style='background:#000000; color:#FFF'>
+				<h4 class="title wow fadeInLeft animated" data-wow-delay=".5s"></h4>
+				<h3 class="title1 wow fadeInLeft animated" data-wow-delay=".5s">算法作曲<br>就在 <span>我们的</span>身边</h3>
+			</div>
+			<div class="col-md-5 welcome-right wow fadeInRightBig animated" data-wow-delay=".5s" style='background:#000000; color:#FeFeFe'>
+				<h5>时至今日，人工智能已经应用于作曲领域中。AI独立作曲、AI协助人类音乐家作曲的作品开始出现在音乐圈中。</h5>
+				<br>
+				<h5>当前，算法作曲的应用主要是在商业作曲，具体形式是根据用户的喜好来个性化定制音乐作品</h5>
+
+			</div>
+			<div style="padding:10px;opacity:0.1;">
+			<span class="bg-text" style="color:#1FD"> </span>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//welcome-->
+	<!--services-->
+	<div class="services" style='background:#000000; color:#FFF'>
+		<div class="container">
+			<div class="col-md-5 services-right">
+				<h3 class="title1 wow fadeInRight animated" data-wow-delay=".5s">关于<br><span>算法作曲</span></h3>
+			</div>
+			<div class="col-md-7 services-left">
+				<div class="col-md-4 services-grid wow fadeInDown animated" data-wow-delay=".5s" style='background:#000000; color:#FeFeFe'>
+					<span class="glyphicon glyphicon-heart effect-1" aria-hidden="true"></span>
+					<h5 style="color:white;font-size:45px;">什么是算法作曲</h5>
+					<p style="color:white;font-size:25px;">作曲的不再是人，而是通过相应的算法来完成作曲。</p>
+				</div>
+				<div class="col-md-4 services-grid wow fadeInDown animated" data-wow-delay=".5s" style='background:#000000; color:#FeFeFe'>
+					<span class="glyphicon glyphicon-list-alt effect-1" aria-hidden="true"></span>
+					<h5 style="color:white;font-size:45px;">算法作曲的原理</h5>
+					<p style="color:white;font-size:25px;">分形音乐模型、马尔可夫链、遗传算法、人工神经网络模型或混合模型。</p>
+				</div>
+				<div class="col-md-4 services-grid wow fadeInDown animated" data-wow-delay=".5s" style='background:#000000; color:#FeFeFe'>
+					<span class="glyphicon glyphicon-leaf effect-1" aria-hidden="true"></span>
+					<h5 style="color:white;font-size:45px;">算法作曲的特点</h5>
+					<p style="color:white;font-size:25px;">作曲快速，种类繁多，丰富的定制化服务</p>
+				</div>
+				
+				<div class="clearfix"> </div>
+			</div>
+			<span class="bg-text bg-right"> </span>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!--scrolling js-->
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<!--//scrolling js-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
